@@ -22,7 +22,7 @@ FFTW_DIR        = /usr/local/share/fftw-2.1.3/installation
 
 SHELL           = /bin/sh
 
-CC              = gcc
+CC              = scorep --user mpicc
 
 CC_FLAGS        = 
 
